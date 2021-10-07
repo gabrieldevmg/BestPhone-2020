@@ -1,0 +1,708 @@
+* {
+  /* GERAL  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(103.96deg, #1b1e24 2.06%, #1c2943 100%), #c4c4c4;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+header {
+  margin-top: 50px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+h1,
+p {
+  font-weight: 300;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+.gridLayout {
+  grid-column: 2;
+}
+.grid_2 {
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+}
+/* HEADER   HEADER */
+
+.header {
+  width: 100%;
+  height: 80px;
+}
+.header ul {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.header li {
+  padding: 27px 5px;
+}
+a {
+  color: #ffffff;
+  text-align: center;
+  font-size: 21px;
+  padding: 0px 12px;
+}
+a:hover {
+  font-weight: bold;
+}
+.header img {
+  width: 70%;
+}
+
+span {
+  font-weight: bold;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 40px;
+}
+.btn a {
+  background: linear-gradient(89.67deg, #eb4f2a 5.27%, #ff932c 105.8%);
+  box-shadow: 0px 17px 38px -9px rgba(255, 147, 44, 0.47);
+  padding: 10px 20px;
+  border-radius: 86px;
+  font-size: 24px;
+}
+.btn > img {
+  width: 12%;
+  margin-left: 15px;
+}
+/*Home*/ /*Home*/ /*Home*/ /*Home*/
+.Home {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Home h1 {
+  font-size: 64px;
+  max-width: 300px;
+}
+.ImagemHome > img {
+  max-width: 900px;
+}
+/*Lancamento*/ /*Lancamento*/ /*Lancamento*/ /*Lancamento*/
+.Branco {
+  background: #ffffff;
+}
+.Lancamento {
+  height: 850px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.Lancamento h1 {
+  color: #1c2943;
+  padding-top: 100px;
+  font-size: 50px;
+}
+.Lancamento p {
+  margin-top: 20px;
+  color: #313131;
+  font-size: 30px;
+  line-height: 36px;
+  max-width: 620px;
+}
+.Lancamento ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin-top: 50px;
+}
+.Lancamento li {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ed552a;
+  border: 2px solid #ed552a;
+  box-sizing: border-box;
+  border-radius: 32.5px;
+  padding: 10px;
+  margin: 10px;
+  width: 195px;
+}
+
+.ImagemLancamento > img {
+  max-width: 880px;
+}
+/*IphoneDoze*/ /*IphoneDoze*/ /*IphoneDoze*/ /*IphoneDoze*/
+.ColorDoze {
+  background: linear-gradient(
+    263.67deg,
+    #1b1f28 4.09%,
+    #1c273d 54.02%,
+    #364665 95.99%
+  );
+  backdrop-filter: blur(120px);
+}
+.IphoneDoze {
+  height: 450px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.ImagemDoze > img {
+  max-width: 650px;
+}
+.TextoDoze {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.TextoDoze h1 {
+  padding-top: 100px;
+  font-weight: bold;
+  width: 370px;
+  font-size: 80px;
+}
+
+.TextoSeminovo {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+  color: #1c2943;
+  padding-bottom: 30px;
+}
+.TextoSeminovo h1 {
+  font-size: 50px;
+  padding-top: 70px;
+}
+.TextoSeminovo p {
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 20px;
+  width: 535px;
+}
+.TextoSeminovo h6 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.Seminovo {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listaIphones {
+  padding: 30px 0px;
+}
+.listaIphones ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+.listaIphones li {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 32.5px;
+  padding: 10px;
+  margin: 10px;
+  width: 195px;
+}
+.Seminovo img {
+  max-width: 750px;
+  position: relative;
+  top: -250px;
+}
+.AppleWatch {
+  padding-top: 40px;
+  height: 450px;
+  display: flex;
+}
+
+.ImagemWatch img {
+  position: relative;
+  z-index: 1 !important;
+  max-width: 650px;
+}
+.TextoWatch {
+  margin-left: 100px;
+  color: #1c2943;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.TextoWatch h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.TextoWatch p {
+  font-size: 30px;
+  width: 338px;
+}
+.Airpods {
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+.ImagemBlack {
+  height: 450px;
+  width: 550px;
+  background-image: url(../images/Air_back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: screen;
+}
+
+.TextoAirpods {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+.TextoAirpods p {
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  width: 385px;
+}
+.TextoAirpods h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  line-height: 60px;
+  color: #ff932c;
+}
+.ImagemAirpods img {
+  position: relative;
+  top: 250px;
+  max-width: 220px;
+}
+
+/*Clientes*/ /*Clientes*/ /*Clientes*/ /*Clientes*/
+.clientes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+.clientes h1 {
+  font-size: 50px;
+  color: #1c2943;
+  text-align: center;
+}
+.clientes p {
+  color: #313131;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  width: 680px;
+}
+.clientesTexto .btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.clientesTexto .btn img {
+  width: 6%;
+}
+.depoimentos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  justify-content: center;
+}
+.cardCliente {
+  width: 30%;
+}
+.cardCliente > img {
+  width: 100%;
+}
+.verificado {
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.verificado p {
+  margin-left: 10px;
+}
+
+/*INSTA DEPOIMENTOS*/ /*INSTA DEPOIMENTOS*/ /*INSTA DEPOIMENTOS*/
+.instaDepoimentos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.cardInsta > p {
+  color: #1c2943;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.instaDepoimentos {
+  border-top: 1px solid #b0b0b0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.cardInsta {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.balaoDepoimentos {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: #1c273d;
+  width: 80%;
+  height: 150px;
+  border-radius: 34px;
+  filter: drop-shadow(0px 15px 28px rgba(54, 70, 101, 0.53));
+  margin-top: 15px;
+}
+.balaoDepoimentos p {
+  padding: 15px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*CONTATOS*/
+
+.contatos {
+  padding-top: 60px;
+  height: 500px;
+  display: flex;
+  color: #ffffff;
+}
+.contatos > img {
+  max-width: 850px;
+}
+.contatosTexto {
+  padding-top: 40px;
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 424px;
+}
+.contatosTexto h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.contatosTexto p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+}
+.contatosTexto ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 330px;
+}
+.contatosTexto li {
+  background: linear-gradient(89.67deg, #eb4f2a 5.27%, #ff932c 105.8%);
+  box-shadow: 0px 17px 38px -9px rgba(255, 147, 44, 0.47);
+  border-radius: 86px;
+  height: 50px;
+  width: 250px;
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contatosTexto img {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+/*FOOTER*/
+
+.footer {
+  margin-top: 70px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+/*RESPONSIVO HOME*/ /*RESPONSIVO HOME*/ /*RESPONSIVO HOME*/
+
+/*1520px*/ /*1520px*/ /*1520px*/ /*1520*/
+@media (max-width: 1520px) {
+  .contatos > img {
+    width: 50%;
+  }
+  .ImagemLancamento > img {
+    max-width: 700px;
+  }
+}
+/*Responsivo 1440px*/
+@media (max-width: 1440px) {
+  .Seminovo img {
+    max-width: 550px;
+    position: relative;
+    top: -250px;
+  }
+  .ImagemHome img {
+    max-width: 750px;
+  }
+}
+
+/*Responsivo 1250px*/
+@media (max-width: 1250px) {
+  .ImagemWatch img {
+    max-width: 550px;
+  }
+}
+
+/*Responsivo 1130px*/
+@media (max-width: 1180px) {
+  .grid {
+    grid-template-columns: 70px auto;
+  }
+  .Home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .TextoHome {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Home h1 {
+    max-width: 1130px;
+  }
+  .ImagemHome img {
+    margin-top: 20px;
+    max-width: 800px;
+  }
+}
+
+/*Responsivo 720px*/
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 20px auto;
+  }
+}
+
+/*Responsivo 1100*/
+@media (max-width: 1120px) {
+  .header {
+    margin-bottom: 20px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 00px 100%;
+  }
+
+  .grid_2 {
+    display: grid;
+    grid-template-columns: 00px 100% 00px;
+  }
+  .ImagemBlack {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+  }
+  .Lancamento {
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  .Lancamento h1 {
+    padding-top: 50px;
+  }
+  .ImagemLancamento > img {
+    max-width: 500px;
+    max-height: 400px;
+    margin-top: 000px;
+  }
+  .TextoLancamento,
+  .ImagemLancamento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .TextoLancamento {
+    max-width: 780px;
+  }
+  .Lancamento ul {
+    justify-content: center;
+  }
+  .IphoneDoze {
+    height: 780px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+  .TextoDoze > h1 {
+    padding-top: 00px;
+  }
+  .Seminovo img {
+    max-width: 450px;
+    top: -50px;
+  }
+  .TextoSeminovo {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: #1c2943;
+    margin-bottom: 30px;
+  }
+  .TextoSeminovo h1 {
+    padding-top: 30px;
+    width: 400px;
+    text-align: center;
+  }
+  .TextoSeminovo p {
+    margin-top: 20px;
+    width: 600px;
+  }
+  .AppleWatch {
+    margin-top: 40px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  .ImagemWatch img {
+    max-width: 550px;
+  }
+  .TextoWatch {
+    margin: 0 auto;
+    max-width: 780px;
+    text-align: center;
+  }
+  .TextoWatch p {
+    width: 338px;
+  }
+  .Airpods {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+  }
+  .TextoAirpods > .btn {
+    margin: 0 auto;
+  }
+  .ImagemAirpods img {
+    margin: 0 auto;
+    top: 20px;
+    max-width: 180px;
+  }
+  .TextoAirpods {
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /*Clientes*/
+  .depoimentos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardCliente {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .verificado {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .verificado p {
+    margin-left: 10px;
+  }
+
+  .instaDepoimentos {
+    flex-direction: column;
+  }
+  .cardInsta {
+    width: 60%;
+    margin-top: 20px;
+  }
+
+  .contatos {
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+    text-align: center;
+  }
+  .contatos > img {
+    width: 80%;
+  }
+  .contatosTexto {
+    margin-left: 0px;
+  }
+  .contatosTexto ul {
+    margin: 0 auto;
+  }
+}
+
+/*680px*/ /*680px*/ /*680px*/ /*680px*/
+@media (max-width: 680px) {
+  .clientes p {
+    width: 580px;
+  }
+  .header {
+    visibility: hidden;
+  }
+}
